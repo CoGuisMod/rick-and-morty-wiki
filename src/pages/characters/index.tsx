@@ -136,6 +136,7 @@ const Characters: NextPage = () => {
 
           <div className="py-1" />
 
+          {/* Characters grid */}
           <div className="xs:grid-cols-2 grid gap-2 md:grid-cols-3 lg:grid-cols-4 ">
             {filteredCharacters
               ? filteredCharacters.results.map(

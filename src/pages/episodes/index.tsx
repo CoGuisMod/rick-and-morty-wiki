@@ -82,6 +82,7 @@ const Episodes: NextPage = () => {
 
           <div className="py-1" />
 
+          {/* Episodes grid */}
           <div className="xs:grid-cols-2 grid gap-2 md:grid-cols-3 lg:grid-cols-4 ">
             {filteredEpisodes
               ? filteredEpisodes.results.map((episode: any, index: number) => (

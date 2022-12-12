@@ -97,6 +97,7 @@ const Locations: NextPage = () => {
 
           <div className="py-1" />
 
+          {/* Locations grid */}
           <div className="xs:grid-cols-2 grid gap-2 md:grid-cols-3 lg:grid-cols-4 ">
             {filteredLocations
               ? filteredLocations.results.map(
